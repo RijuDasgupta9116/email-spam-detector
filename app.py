@@ -6,6 +6,7 @@ https://www.kaggle.com/nitsin/notebook82c26e6892
 import pickle
 import streamlit as st
 
+
 model = pickle.load(open('Models/model.pkl','rb'))
 vector = pickle.load(open('Models/vectors.pkl','rb'))
 
